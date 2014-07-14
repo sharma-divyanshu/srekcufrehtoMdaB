@@ -1,0 +1,33 @@
+﻿body {
+}
+
+.input{
+    padding:10px;
+    margin-top:10%;
+    font-size:15px;
+    font-family:Arsenal;
+    border-style:none;
+    margin-left:5%;
+    background-color:rgb(219, 219, 219);
+}
+    
+.content{
+    padding:4% 10%;
+    font-family:Arsenal;
+    color:white;
+    background-color:rgba(30, 30, 30, 0.77);
+    font-size:20px;
+}
+
+.button{
+    margin-top:2%;
+    padding:15px;
+    cursor:pointer;
+    font-size:25px;
+    font-family:Arsenal;
+    border-style:none;
+    margin-left:10%;
+    width:25%;
+    border-radius:50px;
+    background-color:rgb(219, 219, 219);
+}

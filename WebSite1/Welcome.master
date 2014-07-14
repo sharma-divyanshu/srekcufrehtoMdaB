@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Welcome.master.cs" Inherits="MasterPage2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <link rel="stylesheet" href="Welcome.css" />
+    <div class="banner">
+        <asp:Label ID="Label5" runat="server" Text="WELCOME"></asp:Label>
+    </div>
+    <link rel="stylesheet" href="Welcome.css" />
+    <br />
+    <div class="options1">
+        <asp:LinkButton CssClass="options" ID="LinkButton1" runat="server">DELHI</asp:LinkButton>
+    </div>
+    <div class="options1">
+        <asp:LinkButton CssClass="options" ID="LinkButton2" runat="server">MUMBAI</asp:LinkButton>
+    </div>
+    <div class="options1">
+        <asp:LinkButton CssClass="options" ID="LinkButton3" runat="server">KOLKATA</asp:LinkButton>
+    </div>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+
+</asp:Content>
+
