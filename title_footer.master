@@ -32,12 +32,12 @@
         </asp:ContentPlaceHolder>
     </div>
         <div class="footer">
-            <div><asp:ImageButton ID="ImageButton1" Height="25%" Width="25%" runat="server" ImageUrl="~/img/BVCOE.png" />
+            <div class="lrcomp"><asp:ImageButton ID="ImageButton1" Height="25%" Width="25%" runat="server" ImageUrl="~/img/BVCOE.png" />
             </div>
             <div class="comp">
                 
             </div>
-            <div>
+            <div class="lrcomp">
                 <asp:ImageButton ID="ImageButton2" runat="server" />
             </div>
             </div>

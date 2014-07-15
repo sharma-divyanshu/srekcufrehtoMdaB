@@ -13,7 +13,7 @@ html
     
     font-family:sans-serif;
     background-color:rgb(245, 245, 245);
-    font-weight:700;
+    font-weight:600;
     font-size:20px;
     color:rgb(128, 128, 128);
     border-bottom:1px solid rgb(187, 187, 187);
@@ -59,14 +59,15 @@ html
 {
     text-decoration:none;
     font-family:sans-serif;
-    font-weight:700;
-    font-size:20px;
+    font-weight:600;
+    font-size:22px;
     color:rgb(128, 128, 128);
     height:100%;
     width:inherit;
 }
 .footer
 {
+    width:100%;
     display:inline-block;
     position:relative;
     background-color:rgb(245,245,245);
@@ -75,6 +76,13 @@ html
 }
 .comp
 {
+    display:inline-block;
+    position:relative;
     border-left:1px solid rgb(187, 187, 187);
     border-right:1px solid rgb(187, 187, 187);
+}
+.lrcomp
+{
+    display:inline-block;
+    position:relative;
 }
