@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="title_footer.master.cs" Inherits="title_footer" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="css/master.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="title1">
+        <div class="ico"><asp:Image class="img" ID="Image1" runat="server" Height="38px" ImageUrl="~/img/home.png" Width="38px" />
+        </div>
+        <div class="title">
+            <asp:LinkButton CssClass="lb" ID="LinkButton1" runat="server">About</asp:LinkButton>
+        </div>
+        <div class="title">
+            <asp:LinkButton CssClass="lb" ID="LinkButton2" runat="server">Login</asp:LinkButton>
+        </div>
+        <div class="title">
+            <asp:LinkButton CssClass="lb" ID="LinkButton3" runat="server">Contact</asp:LinkButton>
+        </div>
+        <div class="title">
+            <asp:LinkButton CssClass="lb" ID="LinkButton4" runat="server">Feedback</asp:LinkButton>
+        </div>
+        </div>
+        <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+        <div></div>
+    </form>
+</body>
+</html>
