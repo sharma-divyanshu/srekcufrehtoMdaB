@@ -12,7 +12,7 @@ html
     position:relative;
     
     font-family:sans-serif;
-    background-color:rgb(243, 243, 243);
+    background-color:rgb(245, 245, 245);
     font-weight:700;
     font-size:20px;
     color:rgb(128, 128, 128);
@@ -39,7 +39,7 @@ html
 }
 .title
 {
-    border-right:1px solid rgb(187, 187, 187);
+    border-right:1px solid rgb(220, 220, 220);
     display:inline-block;
     width:18%;
     position:relative;
@@ -64,4 +64,17 @@ html
     color:rgb(128, 128, 128);
     height:100%;
     width:inherit;
+}
+.footer
+{
+    display:inline-block;
+    position:relative;
+    background-color:rgb(245,245,245);
+    border-top:1px solid rgb(220, 220, 220);
+    
+}
+.comp
+{
+    border-left:1px solid rgb(187, 187, 187);
+    border-right:1px solid rgb(187, 187, 187);
 }
