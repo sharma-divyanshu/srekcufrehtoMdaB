@@ -1,33 +1,31 @@
-﻿body {
-    margin:0;
-    background-color:rgba(248, 55, 191, 0.5)
-}
-    
-.navbar{
-    background-color:#0094ff;
-    width:inherit;
-    font-size:25px;
-    text-align:center;
-    padding:15px;
-    border-radius:0 0 25px 25px;
-}
+﻿
 
-a{
-    padding:0 12px 0 12px;
-    float:right;
-    text-decoration:none;
-    color:rgb(76, 255, 0);
-    background:#0e0e0e;
-    border:5px solid red;
-    margin:0 10px 0 10px;
+/* CSS */
+.hsContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
 }
-
-a:hover{
-      padding:0 12px 0 12px;
-    float:right;
-    text-decoration:none;
-    color:rgba(76, 255, 0,0.5);
-    background:#000;
-    border:5px solid blue;
-    margin:0 10px 0 10px;
+.hsContent {
+    max-width: 450px;
+    margin: -150px auto 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    color: #ebebeb;
+    padding: 0 8%;
+    text-align: center
 }
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
