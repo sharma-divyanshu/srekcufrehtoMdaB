@@ -11,4 +11,7 @@ public partial class title_footer : System.Web.UI.MasterPage
     {
 
     }
+    protected void LinkButton1_Click(object sender, EventArgs e)
+    {
+    }
 }

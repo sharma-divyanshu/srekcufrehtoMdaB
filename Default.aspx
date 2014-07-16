@@ -28,6 +28,7 @@
         </script>
     </head>
     <body>
+        <div class="placeholder">
         <ul id="nav">
             <li><a href="#intro" title="Next Section">
                 <img src="img/dot.png" alt="Link" /></a></li>
@@ -74,6 +75,7 @@
             <!--.story-->
         </div>
         <!--#third-->
+    </div>
     </body>
 </asp:Content>
 

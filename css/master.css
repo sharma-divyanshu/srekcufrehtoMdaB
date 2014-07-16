@@ -9,8 +9,8 @@ html
 {
     width:100%;
     display:inline-block;
-    position:relative;
-    
+    position:fixed;
+    z-index:999;
     font-family:sans-serif;
     background-color:rgb(245, 245, 245);
     font-weight:600;
