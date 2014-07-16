@@ -32,4 +32,5 @@ DATABASE
 	- ID | Name | Subject (check) + Editing
 	- Input total classes
 
+	MERGE NAI HO RAHA
 
