@@ -32,14 +32,22 @@
         </asp:ContentPlaceHolder>
     </div>
         <div class="footer">
-            <div class="lrcomp"><asp:ImageButton ID="ImageButton1" Height="25%" Width="25%" runat="server" ImageUrl="~/img/BVCOE.png" />
+            <div class="cont">
+            <div class="lcomp">
+                <asp:Image ID="Image2" runat="server" Height="50%" ImageUrl="~/img/BVCOE.png" style="float:right" />
             </div>
+                </div>
+            <div class="cont">
             <div class="comp">
-                
+                <ul style="float:left">
+                    <li>Option</li>
+                    <li>Option</li>
+                    <li>Option</li>
+                    <li>Option</li>
+                </ul>
             </div>
-            <div class="lrcomp">
-                <asp:ImageButton ID="ImageButton2" runat="server" />
-            </div>
+                </div>
+            
             </div>
     </form>
 </body>

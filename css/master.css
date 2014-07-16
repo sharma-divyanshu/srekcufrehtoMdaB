@@ -68,21 +68,30 @@ html
 .footer
 {
     width:100%;
-    display:inline-block;
-    position:relative;
+    height:220px;
+
     background-color:rgb(245,245,245);
     border-top:1px solid rgb(220, 220, 220);
+    
     
 }
 .comp
 {
     display:inline-block;
     position:relative;
+    text-align:center;
+    width:50%;
     border-left:1px solid rgb(187, 187, 187);
-    border-right:1px solid rgb(187, 187, 187);
 }
-.lrcomp
+.lcomp
 {
+    margin-right:5px;
+    padding:5%;
+    height:80%;
+}
+.cont
+{
+    width:49%;
     display:inline-block;
     position:relative;
 }
