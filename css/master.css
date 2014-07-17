@@ -72,8 +72,6 @@ html
     border-bottom:15px solid rgb(0, 146, 255);
     background-color:rgb(245,245,245);
     border-top:5px solid rgb(200, 200, 200);
-    
-    
 }
 .comp
 {
@@ -95,3 +93,34 @@ html
     display:inline-block;
     position:relative;
 }
+
+#nav{
+	list-style: none;
+	position: fixed;
+    margin:0;
+	float:left;
+    width:100%;
+    min-width:1200px;
+    padding:0;
+    display:inline-block;
+    z-index:999;
+    font-family:sans-serif;
+    background-color:rgb(245, 245, 245);
+    font-weight:600;
+    font-size:20px;
+    color:rgb(128, 128, 128);
+    border-bottom:1px solid rgb(187, 187, 187);
+    height:64px;
+}
+
+
+#nav li{
+	display:inline-block;
+}
+
+#nav a{
+    text-align:center;
+    color:rgb(128, 128, 128);
+    text-decoration:none;
+}
+

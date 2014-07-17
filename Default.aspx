@@ -29,17 +29,6 @@
     </head>
     <body>
         <div class="placeholder">
-        <ul id="nav">
-            <li><a href="#intro" title="Next Section">
-                <img src="img/dot.png" alt="Link" /></a></li>
-            <li><a href="#second" title="Next Section">
-                <img src="img/dot.png" alt="Link" /></a></li>
-            <li><a href="#third" title="Next Section">
-                <img src="img/dot.png" alt="Link" /></a></li>
-            <li><a href="#fifth" title="Next Section">
-                <img src="img/dot.png" alt="Link" /></a></li>
-        </ul>
-
         <div id="intro">
             <div class="story">
                 <div class="float-left">
