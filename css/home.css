@@ -77,7 +77,7 @@ h2{
 
 #intro{
 	background:url(../img/firstBG.jpg) 50% 0 no-repeat fixed;
-	color: white;
+	color: red;
 	height: 600px;
 	margin: 0 auto;
 	padding: 0;
@@ -85,7 +85,7 @@ h2{
 
 #second{
 	background: url(../img/secondBG.jpg) 50% 0 no-repeat fixed;
-	color: white;
+	color: red;
 	height: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -104,7 +104,7 @@ h2{
 
 #third{
 	background: url(../img/thirdBG.jpg) 50% 0 no-repeat fixed;
-	color: white;
+	color: red;
 	height: 650px;
 	padding: 100px 0 0 0;	
 }
@@ -117,14 +117,16 @@ h2{
 }
 
 .story{
-	margin: 0 auto;
+	margin: 0 65px;
 	min-width: 980px;
 	overflow: auto;
 	width: 980px;
 }
 
 .story .float-left, .story .float-right{
-	padding: 100px 0 0 0;
-	position: relative;
-	width: 350px;	
+	padding: 200px 0 0 0;
+	position: absolute;
+	width: 500px;
+    height:400px;
+    background-color:rgba(255, 255, 255, 0.76);
 }
