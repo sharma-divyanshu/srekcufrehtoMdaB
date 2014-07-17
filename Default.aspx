@@ -28,7 +28,7 @@
         </script>
     </head>
     <body>
-        <div class="placeholder">
+        <div class="placeholder" id="one">
         <div id="intro">
             <div class="story">
                 <div class="float-left">

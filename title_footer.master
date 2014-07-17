@@ -14,7 +14,7 @@
         <div class="title1">
             <ul id="nav">
                 <a href="default.aspx" title="Next Section"><li class="ico"><img src="img/home.png" alt="Link" style="height:38px; width:38px;" /></li></a>
-                <a href="#intro" title="Next Section"><li class="title">About</li></a>
+                <a href="#one" title="Next Section"><li class="title">About</li></a>
                 <a href="#second" title="Next Section"><li class="title">Login</li></a>
                 <a href="#third" title="Next Section"><li class="title">Contact</li></a>
                 <a href="#fifth" title="Next Section"><li class="title">Feedback</li></a>
