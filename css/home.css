@@ -7,6 +7,10 @@ body{
 	padding: 0;
 }
 
+.placeholder{
+    padding-top:64px;
+}
+
 p{
 	margin: 0 0 20px 0;	
 }
