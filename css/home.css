@@ -156,13 +156,7 @@ h2{
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-<<<<<<< HEAD
-	width: 900px;
 	z-index: 1000000;
-=======
-	width: 1190px;
-	z-index: 200;
->>>>>>> origin/master
 }
 
 #third{
