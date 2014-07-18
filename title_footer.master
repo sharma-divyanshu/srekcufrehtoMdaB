@@ -27,7 +27,7 @@
         <div class="footer" id="fifth">
             <div class="cont">
             <div class="lcomp">
-                <asp:Image ID="Image2" runat="server" Height="50%" ImageUrl="~/img/BVCOE.png" style="float:right" />
+                <asp:Image ID="Image2" runat="server" Height="30%" ImageUrl="~/img/BVCOE.png" style="float:right" />
             </div>
                 </div>
             <div class="cont">
