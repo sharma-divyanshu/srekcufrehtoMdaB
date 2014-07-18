@@ -81,7 +81,7 @@
                         <tr>
                             <td class="auto-style2"><strong>Password</strong></td>
                             <td>
-                                <asp:TextBox ID="TextBox2" runat="server" CssClass="textbox"></asp:TextBox>
+                                <asp:TextBox ID="TextBox2" runat="server" CssClass="textbox" TextMode="Password"></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
@@ -91,7 +91,7 @@
                         <tr>
                             <td>&nbsp;</td>
                             <td>
-                                <asp:Button ID="Button1" runat="server" CssClass="button" Height="57px" Text="Login" Width="113px" />
+                                <asp:Button ID="Button1" runat="server" CssClass="button" Height="57px" Text="Login" Width="113px" OnClick="Button1_Click" />
                             </td>
                         </tr>
                         <tr>
