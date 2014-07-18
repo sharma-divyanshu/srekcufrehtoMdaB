@@ -76,34 +76,35 @@ h2{
 }
 
 #intro{
-	background:url(../img/firstBG.jpg) 50% 0 no-repeat fixed;
+	background:url(../img/1.jpg) 50% 0 no-repeat fixed;
 	color: red;
-	height: 600px;
+	height: 650px;
 	margin: 0 auto;
 	padding: 0;
 }
 
 #second{
-	background: url(../img/secondBG.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/221.png) 50% 0
+     no-repeat fixed;
 	color: red;
-	height: 1300px;
+	height: 900px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
 }
 
 #second .bg{
-	background: url(../img/trainers.png) 50% 0 no-repeat fixed;
-	height: 1300px;
+	background: url(../img/lel1.png) 40% 0 no-repeat fixed;
+	height: 900px;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-	width: 900px;
+	width: 1208px;
 	z-index: 200;
 }
 
 #third{
-	background: url(../img/thirdBG.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/3.jpg) 50% 0 no-repeat fixed;
 	color: red;
 	height: 650px;
 	padding: 100px 0 0 0;	
