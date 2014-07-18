@@ -16,20 +16,24 @@
         <asp:TableRow><asp:TableCell>Employee ID:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></asp:TableCell></asp:TableRow>
         <asp:TableRow><asp:TableCell>First Name:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></asp:TableCell></asp:TableRow>
         <asp:TableRow><asp:TableCell>Last Name:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></asp:TableCell></asp:TableRow>
-        <asp:TableRow><asp:TableCell>Semesters taught:</asp:TableCell><asp:TableCell><asp:DropDownList ID="DropDownList1" runat="server">
-            <asp:ListItem>1st</asp:ListItem>
-            <asp:ListItem>2nd</asp:ListItem>
-            <asp:ListItem>3rd</asp:ListItem>
-            <asp:ListItem>4th</asp:ListItem>
-            <asp:ListItem>5th</asp:ListItem>
-            <asp:ListItem>6th</asp:ListItem>
-            <asp:ListItem>7th</asp:ListItem>
-            <asp:ListItem>8th</asp:ListItem>
-            </asp:DropDownList></asp:TableCell></asp:TableRow>
-        <asp:TableRow><asp:TableCell>Shift:</asp:TableCell><asp:TableCell><asp:DropDownList ID="DropDownList3" runat="server">
-            <asp:ListItem>Morning</asp:ListItem>
-            <asp:ListItem>Evening</asp:ListItem>
-            </asp:DropDownList></asp:TableCell></asp:TableRow>
+        <asp:TableRow><asp:TableCell>Class's Year Currently Teaching:</asp:TableCell><asp:TableCell><asp:ListBox ID="ListBox1" runat="server">
+            <asp:ListItem>1st Year</asp:ListItem>
+            <asp:ListItem>2nd Year</asp:ListItem>
+            <asp:ListItem>3rd Year</asp:ListItem>
+            <asp:ListItem>4th Year</asp:ListItem>
+            </asp:ListBox></asp:TableCell></asp:TableRow>
+        <asp:TableRow><asp:TableCell>Branch's Currently Teaching:</asp:TableCell><asp:TableCell><asp:ListBox ID="ListBox2" runat="server">
+            <asp:ListItem>CSE - Morning</asp:ListItem>
+            <asp:ListItem>CSE - Evening</asp:ListItem>
+            <asp:ListItem>ECE - Morning</asp:ListItem>
+            <asp:ListItem>ECE - Evening</asp:ListItem>
+            <asp:ListItem>IT - Morning</asp:ListItem>
+            <asp:ListItem>IT - Evening</asp:ListItem>
+            <asp:ListItem>EEE - Morning</asp:ListItem>
+            <asp:ListItem>EEE - Evening</asp:ListItem>
+            <asp:ListItem>ICE - Morning</asp:ListItem>
+            <asp:ListItem>ICE - Evening</asp:ListItem>
+            </asp:ListBox></asp:TableCell></asp:TableRow>
         </asp:Table>
         <br />
         <asp:Button ID="Button1" runat="server" Text="Submit Info" />

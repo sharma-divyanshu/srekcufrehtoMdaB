@@ -16,15 +16,18 @@
         <asp:TableRow><asp:TableCell>Enrollment No.:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></asp:TableCell></asp:TableRow>
         <asp:TableRow><asp:TableCell>First Name:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></asp:TableCell></asp:TableRow>
         <asp:TableRow><asp:TableCell>Last Name:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></asp:TableCell></asp:TableRow>
-        <asp:TableRow><asp:TableCell>Semester:</asp:TableCell><asp:TableCell><asp:DropDownList ID="DropDownList1" runat="server">
+        <asp:TableRow><asp:TableCell>Year:</asp:TableCell><asp:TableCell><asp:DropDownList ID="DropDownList1" runat="server">
             <asp:ListItem>1st</asp:ListItem>
             <asp:ListItem>2nd</asp:ListItem>
             <asp:ListItem>3rd</asp:ListItem>
             <asp:ListItem>4th</asp:ListItem>
-            <asp:ListItem>5th</asp:ListItem>
-            <asp:ListItem>6th</asp:ListItem>
-            <asp:ListItem>7th</asp:ListItem>
-            <asp:ListItem>8th</asp:ListItem>
+            </asp:DropDownList></asp:TableCell></asp:TableRow>
+        <asp:TableRow><asp:TableCell>Branch:</asp:TableCell><asp:TableCell><asp:DropDownList ID="DropDownList2" runat="server">
+            <asp:ListItem>CSE</asp:ListItem>
+            <asp:ListItem>ECE</asp:ListItem>
+            <asp:ListItem>IT</asp:ListItem>
+            <asp:ListItem>EEE</asp:ListItem>
+            <asp:ListItem>ICE</asp:ListItem>
             </asp:DropDownList></asp:TableCell></asp:TableRow>
         <asp:TableRow><asp:TableCell>Shift:</asp:TableCell><asp:TableCell><asp:DropDownList ID="DropDownList3" runat="server">
             <asp:ListItem>Morning</asp:ListItem>
