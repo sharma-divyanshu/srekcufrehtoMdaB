@@ -79,7 +79,7 @@
                                 New Delhi -110063</td>
                         </tr>
                         <tr>
-                            <td class="auto-style2"><strong>Telephone Number</strong></td>
+                            <td class="auto-style2"><strong>Telephone No</strong></td>
                             <td>91-11-25258637, 25278443/ 44</td>
                         </tr>
                         <tr>
@@ -92,7 +92,7 @@
                                 <a class="link_VE" href="mailto:principalbvcoedelhi@bharatividyapeeth.edu" style="font-family: sans-serif; font-size: 15px; color: rgb(177, 239, 41); text-decoration: none; font-weight: normal; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><strong>principalbvcoedelhi@bharatividyapeeth.edu</strong></a></strong></a><span style="color: rgb(153, 0, 255); font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;"><span class="Apple-converted-space"></span></span></td>
                         </tr>
                         <tr>
-                            <td class="auto-style2"><strong>Parent Website</strong></td>
+                            <td class="auto-style2"><strong>Website</strong></td>
                             <td><a class="link_VE" href="http://coedelhi.bharatividyapeeth.edu/" style="font-family: sans-serif; font-size: 15px; color: rgb(177, 239, 41); text-decoration: none; font-weight: normal; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><strong>http://coedelhi.bharatividyapeeth.edu</strong></a></td>
                         </tr>
                         <tr>
