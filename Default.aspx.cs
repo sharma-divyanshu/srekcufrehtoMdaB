@@ -11,4 +11,13 @@ public partial class _Default : System.Web.UI.Page
     {
 
     }
+    protected void TextBox1_TextChanged(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
 }
