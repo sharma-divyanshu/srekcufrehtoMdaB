@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="admin.aspx.cs" Inherits="Default2" %>
+=======
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/title_footer.master" AutoEventWireup="true" CodeFile="admin.aspx.cs" Inherits="Default2" %>
+>>>>>>> origin/master
 
 <!DOCTYPE html>
 
