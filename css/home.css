@@ -77,7 +77,7 @@ h2{
 
 #intro{
 	background:url(../img/1.jpg) 50% 0 no-repeat fixed;
-	color: red;
+	color: rgb(247, 247, 247);
 	height: 650px;
 	margin: 0 auto;
 	padding: 0;
@@ -86,7 +86,7 @@ h2{
 #second{
 	background: url(../img/2.jpg) 50% 0
      no-repeat fixed;
-	color: red;
+	color: rgb(247, 247, 247);
 	height: 900px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -99,13 +99,13 @@ h2{
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-	width: 1208px;
+	width: 1190px;
 	z-index: 200;
 }
 
 #third{
 	background: url(../img/3.jpg) 50% 0 no-repeat fixed;
-	color: red;
+	color: rgb(247, 247, 247);
 	height: 650px;
 	padding: 100px 0 0 0;	
 }
@@ -129,5 +129,5 @@ h2{
 	position: absolute;
 	width: 500px;
     height:400px;
-    background-color:rgba(255, 255, 255, 0.76);
+    background-color:rgba(46, 46, 46, 0.56);
 }
