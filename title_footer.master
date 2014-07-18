@@ -24,10 +24,10 @@
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </div>
-        <div class="footer">
+        <div class="footer" id="fifth">
             <div class="cont">
             <div class="lcomp">
-                <asp:Image ID="Image2" runat="server" Height="50%" ImageUrl="~/img/BVCOE.png" style="float:right" />
+                <a href="http://coedelhi.bharatividyapeeth.edu"><asp:Image ID="Image2" runat="server" Height="30%" ImageUrl="~/img/BVCOE.png" style="float:right" /></a>
             </div>
                 </div>
             <div class="cont">
