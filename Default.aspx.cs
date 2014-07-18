@@ -26,6 +26,8 @@ public partial class _Default : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         SqlCommand cmd = new SqlCommand();
-        cmd.CommandText = "select name from STUDENT";
+        cmd.CommandText = "select from STUDENT where name='"+TextBox1.Text+"'and password='"+TextBox2.Text+"'";
+        SqlDataReader rdr = cmd.ExecuteReader();
+        
     }
 }
