@@ -1,0 +1,11 @@
+﻿.form1{
+    width:100%;
+}
+
+.content {
+    padding: 5%;
+    border: 2px groove black;
+    width: 39.5%;
+    display: inline-block;
+    position: relative;
+}
