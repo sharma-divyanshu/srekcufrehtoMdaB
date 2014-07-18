@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/title_footer.master" AutoEventWireup="true" CodeFile="admin.aspx.cs" Inherits="Default2" %>
 >>>>>>> origin/master
+=======
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="admin.aspx.cs" Inherits="Default2" %>
+>>>>>>> origin/master
 
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
