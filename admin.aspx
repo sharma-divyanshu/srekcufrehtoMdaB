@@ -18,14 +18,12 @@
         </p>
         </center>
     </div>
-    <div class="content">
-        <asp:Panel ID="Panel1" runat="server">
+    <div style="display:inline-block; width:inherit;">
+        <asp:Panel ID="Panel1" runat="server" BorderColor="Black" BorderStyle="Groove" BorderWidth="5px" HorizontalAlign="Justify">
             <asp:RadioButtonList ID="RadioButtonList1" runat="server" Width="290px">
                 <asp:ListItem>Enter Student Data</asp:ListItem>
-                <asp:ListItem>Enter Teacher Data</asp:ListItem>
                 <asp:ListItem>View Class Data</asp:ListItem>
                 <asp:ListItem>Update Student Data</asp:ListItem>
-                <asp:ListItem>Update Teacher Data</asp:ListItem>
             </asp:RadioButtonList>
             <center><asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" />
                 <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
