@@ -33,6 +33,8 @@ public partial class _Default : System.Web.UI.Page
         SqlDataReader rdr = cmd.ExecuteReader();
         if(rdr.Read())
         {
+            Session["username"] = TextBox1.Text;
+            Session["password"] = TextBox2.Text;
             Response.Redirect("view_data.aspx");
         }
         else
