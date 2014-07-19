@@ -21,7 +21,7 @@ public partial class _Default : System.Web.UI.Page
 
     protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
     {
-
+      
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
@@ -29,5 +29,9 @@ public partial class _Default : System.Web.UI.Page
         cmd.CommandText = "select from STUDENT where name='"+TextBox1.Text+"'and password='"+TextBox2.Text+"'";
         SqlDataReader rdr = cmd.ExecuteReader();
         
+    }
+    protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
     }
 }

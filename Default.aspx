@@ -93,7 +93,33 @@
                         <tr>
                             <td>&nbsp;</td>
                             <td>
-                                <asp:Button ID="Button1" runat="server" CssClass="button" Height="57px" Text="Login" Width="113px" OnClick="Button1_Click" />
+                                <asp:Panel ID="Panel1" runat="server">
+                                    <asp:DropDownList ID="DropDownList1" runat="server">
+                                        <asp:ListItem>CSE</asp:ListItem>
+                                        <asp:ListItem>ECE</asp:ListItem>
+                                        <asp:ListItem>EEE</asp:ListItem>
+                                        <asp:ListItem>IT</asp:ListItem>
+                                        <asp:ListItem>IC</asp:ListItem>
+                                    </asp:DropDownList>
+                                    <asp:DropDownList ID="DropDownList2" runat="server" style="margin-left: 53px">
+                                        <asp:ListItem Value="1yr">1st Year</asp:ListItem>
+                                        <asp:ListItem Value="2yr">2nd Year</asp:ListItem>
+                                        <asp:ListItem Value="3yr">3rd Year</asp:ListItem>
+                                        <asp:ListItem Value="4yr">4th Year</asp:ListItem>
+                                    </asp:DropDownList>
+                                </asp:Panel>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                    <table class="auto-style1">
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                                <asp:Button ID="Button1" runat="server" CssClass="button" Height="67px" Text="Login" Width="113px" OnClick="Button1_Click" />
                             </td>
                         </tr>
                         <tr>
