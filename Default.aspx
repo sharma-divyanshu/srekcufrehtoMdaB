@@ -17,7 +17,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>BunkIt!!!</title>
+        <title>BVCOE Attendance Portal</title>
         <link href="css/home.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>

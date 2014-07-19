@@ -155,10 +155,11 @@ h2{
 #second .bg{
 	background: url(../img/lel1.png) 40% 0 no-repeat fixed;
 	height: 900px;
+    width:93%;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-	z-index: 1000000;
+	z-index: 800;
 }
 
 #third{
