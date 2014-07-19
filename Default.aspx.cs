@@ -35,7 +35,9 @@ public partial class _Default : System.Web.UI.Page
         {
             Session["username"] = TextBox1.Text;
             Session["password"] = TextBox2.Text;
-            Response.Redirect("view_data.aspx");
+            Session["stream"] = DropDownList1.SelectedValue;
+            Session["year"] = DropDownList2.SelectedValue;
+            Response.Redirect("view_data.aspx?Stream="+this.DropDownList1.SelectedValue+"&Year="+this.DropDownList2.SelectedValue);
         }
         else
         {
@@ -44,6 +46,10 @@ public partial class _Default : System.Web.UI.Page
         };
     }
     protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
+    protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
     {
 
     }

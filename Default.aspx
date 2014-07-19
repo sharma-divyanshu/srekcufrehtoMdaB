@@ -103,7 +103,7 @@
                             <td>
                                 <asp:Panel ID="Panel1" runat="server">
                                     <asp:DropDownList ID="DropDownList1" runat="server">
-                                        <asp:ListItem>CSE</asp:ListItem>
+                                        <asp:ListItem Selected="True">CSE</asp:ListItem>
                                         <asp:ListItem>ECE</asp:ListItem>
                                         <asp:ListItem>EEE</asp:ListItem>
                                         <asp:ListItem>IT</asp:ListItem>
@@ -135,6 +135,8 @@
                             <td>&nbsp;</td>
                         </tr>
                     </table>
+                    <asp:Panel ID="Panel2" runat="server">
+                    </asp:Panel>
                 </div>
             </div>
             <!--.story-->
