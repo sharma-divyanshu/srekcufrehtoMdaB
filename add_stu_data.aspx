@@ -17,10 +17,10 @@
         <asp:TableRow><asp:TableCell>First Name:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></asp:TableCell></asp:TableRow>
         <asp:TableRow><asp:TableCell>Last Name:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></asp:TableCell></asp:TableRow>
         <asp:TableRow><asp:TableCell>Year:</asp:TableCell><asp:TableCell><asp:DropDownList ID="DropDownList1" runat="server">
-            <asp:ListItem>1st</asp:ListItem>
-            <asp:ListItem>2nd</asp:ListItem>
-            <asp:ListItem>3rd</asp:ListItem>
-            <asp:ListItem>4th</asp:ListItem>
+            <asp:ListItem>1</asp:ListItem>
+            <asp:ListItem>2</asp:ListItem>
+            <asp:ListItem>3</asp:ListItem>
+            <asp:ListItem>4</asp:ListItem>
             </asp:DropDownList></asp:TableCell></asp:TableRow>
         <asp:TableRow><asp:TableCell>Branch:</asp:TableCell><asp:TableCell><asp:DropDownList ID="DropDownList2" runat="server">
             <asp:ListItem>CSE</asp:ListItem>
@@ -35,7 +35,7 @@
             </asp:DropDownList></asp:TableCell></asp:TableRow>
         </asp:Table>
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Submit Info" />
+        <asp:Button ID="Button1" runat="server" Text="Submit Info" OnClick="Button1_Click" />
     </div>
     </form>
 </body>
