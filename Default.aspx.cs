@@ -26,9 +26,20 @@ public partial class _Default : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         SqlCommand cmd = new SqlCommand();
-        cmd.CommandText = "select from STUDENT where name='"+TextBox1.Text+"'and password='"+TextBox2.Text+"'";
+        cmd.CommandText = "select name,password from STUDENT where name=@name and password=@password";
+        cmd.Parameters.AddWithValue("@name", TextBox1.Text);
+        cmd.Parameters.AddWithValue("@password", TextBox2.Text);
+        cmd.Connection = con;
         SqlDataReader rdr = cmd.ExecuteReader();
-        
+        if(rdr.Read())
+        {
+            Response.Redirect("view_data.aspx");
+        }
+        else
+        {
+            Label1.Text = "Invalid information. Check Username/Password combination.";
+            Label1.Visible = true;
+        };
     }
     protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
     {

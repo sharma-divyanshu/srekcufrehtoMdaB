@@ -62,11 +62,20 @@
                 <div class="float-right">
                     <h2 class="auto-style3">Login</h2>
                     <p>
-                        <asp:RadioButtonList ID="RadioButtonList1" runat="server" Font-Size="Large" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged" RepeatDirection="Horizontal" Width="300px">
-                            <asp:ListItem Selected="True">Student</asp:ListItem>
-                            <asp:ListItem>Teacher</asp:ListItem>
-                        </asp:RadioButtonList>
+                        <asp:ScriptManager ID="ScriptManager1" runat="server">
+                        </asp:ScriptManager>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+                    <p><asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>        <asp:Label ID="Label1" runat="server" Text="Label" Visible="False" ForeColor="#FF3300"></asp:Label>
+                        </ContentTemplate>
+                    <Triggers>
+                    <asp:AsyncPostBackTrigger ControlID="Button1"
+                                    EventName="Click" />
+                    </Triggers>        
+                    </asp:UpdatePanel>    
+                        </p>
+                    
+                    
                     <table class="auto-style1">
                         <tr>
                             <td class="auto-style2"><strong>Username</strong></td>
@@ -87,8 +96,7 @@
                         <tr>
                             <td>&nbsp;</td>
                             <td>
-                                <asp:Label ID="Label1" runat="server" Text="Label" Visible="False"></asp:Label>
-                            </td>
+                                &nbsp;</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
