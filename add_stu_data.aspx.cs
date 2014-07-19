@@ -15,7 +15,8 @@ public partial class Default2 : System.Web.UI.Page
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        long enr_no,yr,branch_id;
+        int branch_id, yr;
+        long enr_no;
         string first_name, last_name,branch,shift,name;
         string cont = "y";
         while(cont=="y")
@@ -34,16 +35,18 @@ public partial class Default2 : System.Web.UI.Page
             switch(branch)
             {
                 case "CSE": branch_id = 1;
-                    string insert = "INSERT INTO CSE (Branch_ID,Shift,Year,Enroll_No., Name) values (@branch_id,@shift,@yr,@enr_no,@name)";
+                    string insert = "INSERT INTO CSE (Branch_ID,Shift,Year,Enroll_No, Name) values (@branch_id,@shift,@yr,@enr_no,@name)";
                     cmd = new SqlCommand(insert, con);
-                    cmd.Parameters.AddWithValue("@branch_id", branch_id.ToString());
-                    cmd.Parameters.AddWithValue("@shift", shift.ToString());
-                    cmd.Parameters.AddWithValue("@yr", yr.ToString());
-                    cmd.Parameters.AddWithValue("@enr_no", enr_no.ToString());
-                    cmd.Parameters.AddWithValue("@name", name.ToString());
-                    cmd.ExecuteNonQuery();                         
+                    cmd.Parameters.AddWithValue("@branch_id", branch_id);
+                    cmd.Parameters.AddWithValue("@shift", shift);
+                    cmd.Parameters.AddWithValue("@yr", yr);
+                    cmd.Parameters.AddWithValue("@enr_no",enr_no);
+                    cmd.Parameters.AddWithValue("@name", name);
+                    cmd.ExecuteNonQuery();
                     break;
             }
+            if (cont == "y")
+                Response.Redirect("~/add_stu_data.aspx");
             con.Close();
         }
        
