@@ -17,7 +17,7 @@ public partial class Default2 : System.Web.UI.Page
     {
         if ((TextBox1.Text == "admin") && (TextBox2.Text == "adm"))
         {
-            Label1.Text = "Login Successfull :)";
+            Label1.Text = "Admin Login Successfull :)";
             Panel1.Visible = true;
             RadioButtonList1.SelectedIndex = -1;
         }
@@ -39,10 +39,6 @@ public partial class Default2 : System.Web.UI.Page
                 case "Enter Teacher Data": Response.Redirect("~/add_tea_data.aspx");
                     break;
                 case "View Class Data": Response.Redirect("~/view_data.aspx");
-                    break;
-                case "Update Student Data": Response.Redirect("~/upd_stu_data.aspx");
-                    break;
-                case "Update Teacher Data": Response.Redirect("~/upd_tea_data.aspx");
                     break;
                 default:
                     break;
