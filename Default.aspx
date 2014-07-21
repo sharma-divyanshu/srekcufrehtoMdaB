@@ -45,7 +45,7 @@
             <div class="story">
                 <div class="float-left">
                     <h2>About Bharati Vidyapeeth's College of Engineering, New Delhi</h2>
-                    <p>Bharati vidyapeeth’s college of engg., New Delhi since its establishment in 1999, has strived to provide the best engineering education to its students through well qualified and dedicated faculty and provision of well equipped modern labs.</p>
+                    <p>Bharati vidyapeeth’s college of engineering, New Delhi since its establishment in 1999, has strived to provide the best engineering education to its students through well qualified and dedicated faculty and provision of well equipped modern labs.</p>
 
 <p>The college affiliated to Guru Gobind Singh Indraprasth University, New Delhi, and approved by All India Council for Technical Education (AICTE), Ministry of HRD, Govt. of India, BVCOE is steadily striding forward in its quest of establishing itself among the top engineering colleges in North India.</p>
 
