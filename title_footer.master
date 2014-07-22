@@ -32,8 +32,7 @@
                 </div>
             <div class="cont">
             <div class="comp">
-                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="XmlDataSource1">
-                </asp:TreeView>
+         
             </div>
                 </div>
             
