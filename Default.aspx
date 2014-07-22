@@ -109,7 +109,7 @@
                                         <asp:ListItem>IT</asp:ListItem>
                                         <asp:ListItem>IC</asp:ListItem>
                                     </asp:DropDownList>
-                                    <asp:DropDownList ID="DropDownList2" runat="server" style="margin-left: 34px" Height="18px" Width="76px">
+                                    <asp:DropDownList ID="DropDownList2" runat="server" style="margin-left: 34px" Height="22px" Width="76px">
                                         <asp:ListItem Value="1yr">1st Year</asp:ListItem>
                                         <asp:ListItem Value="2yr">2nd Year</asp:ListItem>
                                         <asp:ListItem Value="3yr">3rd Year</asp:ListItem>
