@@ -32,12 +32,8 @@
                 </div>
             <div class="cont">
             <div class="comp">
-                <ul style="float:left">
-                    <li>Option</li>
-                    <li>Option</li>
-                    <li>Option</li>
-                    <li>Option</li>
-                </ul>
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="XmlDataSource1">
+                </asp:TreeView>
             </div>
                 </div>
             

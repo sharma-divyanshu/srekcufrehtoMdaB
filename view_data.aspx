@@ -30,8 +30,11 @@
         </asp:DropDownList>
         <p><asp:Button ID="Button1" runat="server" Text="Display Data" OnClick="Button1_Click" /></p>
     </div>
-    <div class="content">
-    </div>
+        <asp:Panel ID="Panel1" runat="server" CssClass="content">
+            <asp:GridView ID="GridView1" runat="server">
+            </asp:GridView>
+
+        </asp:Panel>
     </form>
     </body>
 </html>

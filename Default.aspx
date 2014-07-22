@@ -33,7 +33,7 @@
                 //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
                 $('#intro').parallax("50%", 0.1);
                 $('#second').parallax("50%", 0.1);
-                $('.bg').parallax("50%", 0.2);
+                $('.bg').parallax("50%", 0.17);
                 $('#third').parallax("50%", 0.3);
 
             })
@@ -146,6 +146,7 @@
 
         <div id="third">
             <div class="story">
+                <div class="bg"></div>
                 <div class="float-left">
                     <h2>Contact Us</h2>
                     <table class="auto-style1">

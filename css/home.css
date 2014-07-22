@@ -159,14 +159,25 @@ h2{
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-	z-index: 299;
+	z-index: 399;
 }
 
 #third{
 	background: url(../img/3.jpg) 50% 0 no-repeat fixed;
 	color: rgb(247, 247, 247);
 	height: 650px;
-	padding: 100px 0 0 0;	
+	padding: 0;	
+    z-index:100;
+}
+
+#third .bg{
+	background: url(../img/lel1.png) 40% 0 no-repeat fixed;
+	height: 900px;
+    width:93%;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 399;
 }
 
 #fifth{
