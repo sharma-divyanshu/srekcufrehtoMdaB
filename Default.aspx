@@ -150,10 +150,9 @@
                             
                         </tr>
                     </table>
-                    <asp:Panel ID="Panel2" runat="server">
-                    </asp:Panel>
                 </div>
             </div>
+          
             <!--.story-->
 
         </div>
