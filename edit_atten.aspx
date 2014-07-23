@@ -11,7 +11,9 @@
     <form id="form1" runat="server">
     <div class="content">
         <asp:Panel ID="Panel1" runat="server">
-            <h1>Enter Class to be editted:</h1>
+            <h1>Enter Class to be edited:</h1>
+            <p>
+                &nbsp;</p>
             <p>
                 <asp:Label ID="Label1" runat="server" Text="Year"></asp:Label><asp:DropDownList ID="DropDownList1" runat="server">
                     <asp:ListItem>1</asp:ListItem>
