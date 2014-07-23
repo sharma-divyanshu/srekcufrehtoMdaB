@@ -28,7 +28,7 @@
         <asp:ListItem>Morning</asp:ListItem>
         <asp:ListItem>Evening</asp:ListItem>
         </asp:DropDownList>
-        <p><asp:Button ID="Button1" runat="server" Text="Display Data" OnClick="Button1_Click" /></p>
+        <p><asp:Button ID="Button1" runat="server" Text="Display Data" /></p>
     </div>
     </form>
 </body>
