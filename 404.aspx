@@ -6,19 +6,49 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
-        .auto-style2 {
-            width: 917px;
-            height: 1024px;
+        img{
+            float:left; 
+            height:100%;
+            width:50%;
+            position:relative;
+            display:inline-block;
+        }
+        p{
+            float:left;
+            position:relative;
+            display:inline-block;
+            text-align:center;
+            width:50%;
+            color:rgb(177,239,41);  
+        }
+        h1{
+            float:left;
+            position:relative;
+            display:inline-block;
+            text-align:center;
+            width:50%;
+            color:rgb(177,239,41);      
+            padding-top:15%;
+        }
+        html{
+            margin:0;
+            width:100%;
+            height:100%;
+            background-color:rgb(0,0,0);
+        }
+        .main{
+            height:100%;
+            width:100%;
         }
     </style>
 </head>
-<body>
-    <form id="form1" runat="server">
-    <div style="margin: 0px ; width:100%; height:100%">
-        
-        <img alt="404: Page not found" class="auto-style2" src="img/404.jpg" /></div>
+<body style="margin:0;">
+    <form id="form1" runat="server" >
+    <div class="main">
+        <img alt="error-404" src="img/404.jpg"/>
+        <h1>ERROR 404</h1>
+        <p>You have either reached the wrong page or session has expired.</p>
+    </div>
     </form>
-    <p>
-        &nbsp;</p>
 </body>
 </html>
