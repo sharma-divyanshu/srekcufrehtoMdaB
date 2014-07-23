@@ -3,8 +3,8 @@
     margin: 0; 
 }
 body {
-	font: 11px Tahoma;
-	background-color: #F7F7E9;
+	font: 14px Tahoma;
+	background-color: rgb(247, 247, 247);
 }
 h1 {
     font: bold 32px Times;
