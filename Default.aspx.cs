@@ -37,6 +37,7 @@ public partial class _Default : System.Web.UI.Page
             Session["password"] = TextBox2.Text;
             Session["stream"] = DropDownList1.SelectedValue;
             Session["year"] = DropDownList2.SelectedValue;
+            Session["value"] = 1;
             Response.Redirect("view_data.aspx?Stream="+this.DropDownList1.SelectedValue+"&Year="+this.DropDownList2.SelectedValue);
         }
         else
