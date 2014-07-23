@@ -9,9 +9,14 @@ using System.Web.UI.WebControls;
 
 public partial class Default2 : System.Web.UI.Page
 {
-    SqlDataReader r;
+  
     protected void Page_Load(object sender, EventArgs e)
     {
+        if(Session.IsNewSession==false)
+        {
+            Response.Redirect("404.aspx");
+        }
+        else
         SqlDataSource1.SelectCommand = @"select * from " + Request.QueryString["Stream"] + " where name='" + Session["username"] + "'and Year='"+Request.QueryString["Year"]+"'";
     }
    

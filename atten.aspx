@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="edit_atten.aspx.cs" Inherits="edit_atten" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="atten.aspx.cs" Inherits="edit_atten" %>
 
 <!DOCTYPE html>
 
