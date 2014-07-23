@@ -51,15 +51,15 @@
             font-family: '3dumbregular';
         }
     </style>
-    <script>setTimeout(function () { window.location.href = 'Default.aspx' }, 5000);</script>
+    <script>setTimeout(function () { window.location.href = 'Default.aspx' }, 10000);</script>
 </head>
 <body style="margin:0;">
     <form id="form1" runat="server" >
     <div class="main">
         <img alt="error-404" src="img/404.jpg"/>
         <h1>ERROR 404</h1>
-        <p>You have either reached the wrong page or session has expired.</p>
-        <p>Redirecting you to home page</p>
+        <p>You have either reached the wrong page or the session has expired :(</p>
+        <p>Redirecting to the home page</p>
     </div>
     </form>
 </body>
