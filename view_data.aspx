@@ -31,9 +31,10 @@
         <p><asp:Button ID="Button1" runat="server" Text="Display Data" OnClick="Button1_Click" /></p>
     </div>
         <asp:Panel ID="Panel1" runat="server" CssClass="content">
-            <asp:GridView ID="GridView1" runat="server">
+            <asp:GridView ID="GridView1" runat="server" DataSourceID="SqlDataSource1">
             </asp:GridView>
-
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>">
+            </asp:SqlDataSource>
         </asp:Panel>
     </form>
     </body>

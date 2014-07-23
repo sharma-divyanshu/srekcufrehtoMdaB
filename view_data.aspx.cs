@@ -12,10 +12,7 @@ public partial class Default2 : System.Web.UI.Page
     SqlDataReader r;
     protected void Page_Load(object sender, EventArgs e)
     {
-    }
-    protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
-    {
-
+        SqlDataSource1.SelectCommand = @"select * from " + Request.QueryString["Stream"] + " where name='" + Session["username"] + "'";
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
@@ -23,6 +20,7 @@ public partial class Default2 : System.Web.UI.Page
         int yr = Convert.ToInt32(DropDownList2.Text);
         SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\hph\Documents\Visual Studio 2013\WebSites\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
         conn.Open();
+        GridView1.DataBind();
         if(branch=="CSE")
         {
             SqlCommand com1 = new SqlCommand(@"select * from CSE", conn);
