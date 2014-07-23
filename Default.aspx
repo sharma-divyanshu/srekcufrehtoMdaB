@@ -10,9 +10,24 @@
         }
     .auto-style3 {
         font-size: xx-large;
-        text-align: left;
+        text-align: center;
     }
-    </style>
+        .auto-style4 {
+            width: 276px;
+        }
+        .auto-style5 {
+            width: 100%;
+        }
+        .auto-style6 {
+            font-size: large;
+            width: 210px;
+            text-align: center;
+        }
+        .auto-style7 {
+            width: 210px;
+            text-align: center;
+        }
+        </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <head>
@@ -69,7 +84,7 @@
                         </asp:ScriptManager>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
                     <p><asp:UpdatePanel ID="UpdatePanel1" runat="server">
-                        <ContentTemplate>        <asp:Label ID="Label1" runat="server" Text="Label" Visible="False" ForeColor="#FF3300"></asp:Label>
+                        <ContentTemplate>       <center> <asp:Label ID="Label1" runat="server" Text="Label" Visible="False" ForeColor="#FF3300"></asp:Label></center>
                         </ContentTemplate>
                     <Triggers>
                     <asp:AsyncPostBackTrigger ControlID="Button1"
@@ -81,29 +96,29 @@
                     
                     <table class="auto-style1">
                         <tr>
-                            <td class="auto-style2">Username</td>
-                            <td>
+                            <td class="auto-style6">Username</td>
+                            <td class="auto-style4">
                                 <asp:TextBox ID="TextBox1" runat="server" BorderStyle="None" CssClass="textbox" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td class="auto-style7">&nbsp;</td>
+                            <td class="auto-style4">&nbsp;</td>
                         </tr>
                         <tr>
-                            <td class="auto-style2">Password</td>
-                            <td>
+                            <td class="auto-style6">Password</td>
+                            <td class="auto-style4">
                                 <asp:TextBox ID="TextBox2" runat="server" CssClass="textbox" TextMode="Password"></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>
+                            <td class="auto-style7">&nbsp;</td>
+                            <td class="auto-style4">
                                 &nbsp;</td>
                         </tr>
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>
+                            <td class="auto-style7">&nbsp;</td>
+                            <td class="auto-style4">
                                 <asp:Panel ID="Panel1" runat="server">
                                     <asp:DropDownList ID="DropDownList1" runat="server">
                                         <asp:ListItem Selected="True">CSE</asp:ListItem>
@@ -122,20 +137,20 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td class="auto-style7">&nbsp;</td>
+                            <td class="auto-style4">&nbsp;</td>
                         </tr>
                     </table>
                     <table class="auto-style1">
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>
-                                <asp:Button ID="Button1" runat="server" CssClass="button" Height="67px" Text="Login" Width="113px" OnClick="Button1_Click" />
+                          
+                            <td class="auto-style5">
+                                <center style="width: 495px"><asp:Button ID="Button1" runat="server" CssClass="button" Height="67px" Text="Login" Width="113px" OnClick="Button1_Click" /></center>
                             </td>
                         </tr>
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td class="auto-style5">&nbsp;</td>
+                            
                         </tr>
                     </table>
                     <asp:Panel ID="Panel2" runat="server">
