@@ -15,9 +15,6 @@
         .auto-style4 {
             width: 276px;
         }
-        .auto-style5 {
-            width: 100%;
-        }
         .auto-style6 {
             font-size: large;
             width: 210px;
@@ -77,7 +74,7 @@
         <div id="second">
             <div class="story">
                 <div class="bg"></div>
-                <div class="float-right">
+                <div class="float-right" style="border:4px ridge rgb(177, 239, 41);">
                     <h2 class="auto-style3">Login</h2>
                     <p>
                         <asp:ScriptManager ID="ScriptManager1" runat="server">
@@ -144,12 +141,12 @@
                     <table class="auto-style1">
                         <tr>
                           
-                            <td class="auto-style5">
-                                <center style="width: 495px"><asp:Button ID="Button1" runat="server" CssClass="button" Height="67px" Text="Login" Width="113px" OnClick="Button1_Click" /></center>
+                            <td class="auto-style1">
+                                <center><asp:Button ID="Button1" runat="server" CssClass="button" Height="67px" Text="Login" Width="113px" OnClick="Button1_Click" /></center>
                             </td>
                         </tr>
                         <tr>
-                            <td class="auto-style5">&nbsp;</td>
+                            <td class="auto-style1">&nbsp;</td>
                             
                         </tr>
                     </table>
