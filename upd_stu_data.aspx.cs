@@ -19,10 +19,11 @@ public partial class Default2 : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         string ctr = DropDownList1.Text;
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\hph\Documents\Visual Studio 2013\WebSites\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
         switch(ctr)
         {
             case "Enrollment No.":
-                Panel3.Visible = true; 
+                Panel3.Visible = true;
                 break;
             case "Name":
                 Panel4.Visible = true;

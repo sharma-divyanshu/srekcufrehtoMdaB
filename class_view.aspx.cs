@@ -9,7 +9,10 @@ public partial class class_view : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        SqlDataSource1.SelectCommand = @"select * from " + Request.QueryString["branch"] + " where year='" + Session["year"] + "'and shift='" + Request.QueryString["shift"] + "' order by Enroll_No";
+        if (Request.QueryString["branch"] != null)
+            SqlDataSource1.SelectCommand = @"select * from " + Request.QueryString["branch"] + " where year='" + Session["year"] + "'and shift='" + Request.QueryString["shift"] + "' order by Enroll_No";
+        else
+            Response.Redirect("404.aspx");
     }
     protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
     {

@@ -11,8 +11,8 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="select * from cse"></asp:SqlDataSource>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" CssClass="mGrid">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ></asp:SqlDataSource>
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="SqlDataSource1" CssClass="mGrid">
             <Columns>
                 <asp:BoundField DataField="Branch_ID" HeaderText="Branch_ID" SortExpression="Branch_ID" />
                 <asp:BoundField DataField="Shift" HeaderText="Shift" SortExpression="Shift" />
@@ -35,7 +35,6 @@
                 <asp:BoundField DataField="att_sub_14" HeaderText="att_sub_14" SortExpression="att_sub_14" />
                 <asp:BoundField DataField="att_sub_15" HeaderText="att_sub_15" SortExpression="att_sub_15" />
                 <asp:BoundField DataField="att_tot" HeaderText="att_tot" SortExpression="att_tot" />
-                <asp:BoundField DataField="ID" HeaderText="ID" InsertVisible="False" ReadOnly="True" SortExpression="ID" />
             </Columns>
         </asp:GridView>
     
