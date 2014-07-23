@@ -12,7 +12,7 @@ public partial class Default2 : System.Web.UI.Page
     SqlDataReader r;
     protected void Page_Load(object sender, EventArgs e)
     {
-        SqlDataSource1.SelectCommand = @"select * from " + Request.QueryString["Stream"] + " where name='" + Session["username"] + "'";
+        SqlDataSource1.SelectCommand = @"select * from " + Request.QueryString["Stream"] + " where name='" + Session["username"] + "'and Year='"+Request.QueryString["Year"]+"'";
     }
     protected void Button1_Click(object sender, EventArgs e)
     {

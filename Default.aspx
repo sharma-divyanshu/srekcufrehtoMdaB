@@ -81,7 +81,7 @@
                     
                     <table class="auto-style1">
                         <tr>
-                            <td class="auto-style2"><strong>Username</strong></td>
+                            <td class="auto-style2">Username</td>
                             <td>
                                 <asp:TextBox ID="TextBox1" runat="server" BorderStyle="None" CssClass="textbox" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
                             </td>
@@ -91,7 +91,7 @@
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td class="auto-style2"><strong>Password</strong></td>
+                            <td class="auto-style2">Password</td>
                             <td>
                                 <asp:TextBox ID="TextBox2" runat="server" CssClass="textbox" TextMode="Password"></asp:TextBox>
                             </td>
@@ -113,10 +113,10 @@
                                         <asp:ListItem>IC</asp:ListItem>
                                     </asp:DropDownList>
                                     <asp:DropDownList ID="DropDownList2" runat="server" style="margin-left: 34px" Height="22px" Width="76px">
-                                        <asp:ListItem Value="1yr">1st Year</asp:ListItem>
-                                        <asp:ListItem Value="2yr">2nd Year</asp:ListItem>
-                                        <asp:ListItem Value="3yr">3rd Year</asp:ListItem>
-                                        <asp:ListItem Value="4yr">4th Year</asp:ListItem>
+                                        <asp:ListItem Value="1">1st Year</asp:ListItem>
+                                        <asp:ListItem Value="2">2nd Year</asp:ListItem>
+                                        <asp:ListItem Value="3">3rd Year</asp:ListItem>
+                                        <asp:ListItem Value="4">4th Year</asp:ListItem>
                                     </asp:DropDownList>
                                 </asp:Panel>
                             </td>

@@ -18,6 +18,35 @@
         </p>
         </center>
     </div>
+        <div class="content">
+        <asp:Panel ID="Panel2" runat="server">
+            <p>
+                <strong>Enter Class to be edited:</strong></p>
+            <p>
+                &nbsp;</p>
+            <p>
+                <asp:Label ID="Label3" runat="server" Text="Year"></asp:Label><asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:ListItem>1</asp:ListItem>
+                    <asp:ListItem>2</asp:ListItem>
+                    <asp:ListItem>3</asp:ListItem>
+                    <asp:ListItem>4</asp:ListItem>
+                </asp:DropDownList>
+                <asp:Label ID="Label4" runat="server" Text="Shift"></asp:Label><asp:DropDownList ID="DropDownList2" runat="server">
+                    <asp:ListItem>Morning</asp:ListItem>
+                    <asp:ListItem>Evening</asp:ListItem>
+                </asp:DropDownList>
+                <asp:Label ID="Label5" runat="server" Text="Branch"></asp:Label><asp:DropDownList ID="DropDownList3" runat="server">
+                    <asp:ListItem>CSE</asp:ListItem>
+                    <asp:ListItem>ECE</asp:ListItem>
+                    <asp:ListItem>EEE</asp:ListItem>
+                    <asp:ListItem>IT</asp:ListItem>
+                    <asp:ListItem>ICE</asp:ListItem>
+                </asp:DropDownList>
+            </p>
+            <p>
+                <asp:Button ID="Button3" runat="server" Text="Search" OnClick="Button1_Click" />
+            </p>
+            </asp:Panel>
     <div style="display:inline-block; width:inherit;">
         <asp:Panel ID="Panel1" runat="server" BorderColor="Black" BorderStyle="Groove" BorderWidth="5px" HorizontalAlign="Justify">
             <asp:RadioButtonList ID="RadioButtonList1" runat="server" Width="290px">
