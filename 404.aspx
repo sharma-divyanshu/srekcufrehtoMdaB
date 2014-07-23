@@ -6,10 +6,9 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
-        .auto-style1 {
-            margin: 0px;
-            width: 100%;
-            height: 100%;
+        .auto-style2 {
+            width: 917px;
+            height: 1024px;
         }
     </style>
 </head>
@@ -17,7 +16,7 @@
     <form id="form1" runat="server">
     <div style="margin: 0px ; width:100%; height:100%">
         
-        <img alt="404: Page not found" class="auto-style1" src="img/404.jpg" /></div>
+        <img alt="404: Page not found" class="auto-style2" src="img/404.jpg" /></div>
     </form>
     <p>
         &nbsp;</p>
