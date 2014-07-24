@@ -13,5 +13,7 @@
 .panel{
     display:inline-block;
     position:relative;
-    width:40%;
+    width:64%;
+    top: 0px;
+    left: 0px;
 }
