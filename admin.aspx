@@ -35,14 +35,15 @@
                     <asp:ListItem>Morning</asp:ListItem>
                     <asp:ListItem>Evening</asp:ListItem>
                 </asp:DropDownList>
-                <asp:Label ID="Label5" runat="server" Text="Branch"></asp:Label><asp:DropDownList ID="DropDownList3" runat="server">
+                <asp:Label ID="Label5" runat="server" Text="Branch"></asp:Label><asp:DropDownList ID="DropDownList3" AppendDataBoundItems="true" DataSourceID="" DataTextField="" DataValueField ="" runat="server" OnSelectedIndexChanged="DropDownList3_SelectedIndexChanged" AutoPostBack="True">
+                    <asp:ListItem Value="">Select</asp:ListItem>
                     <asp:ListItem>CSE</asp:ListItem>
                     <asp:ListItem>ECE</asp:ListItem>
                     <asp:ListItem>EEE</asp:ListItem>
                     <asp:ListItem>IT</asp:ListItem>
                     <asp:ListItem>ICE</asp:ListItem>
                 </asp:DropDownList>
-                 <asp:Label ID="Label6" runat="server" Text="Subjects"></asp:Label><asp:DropDownList ID="DropDownList4" runat="server">
+                 <asp:Label ID="Label6" runat="server" Text="Subjects"></asp:Label><asp:DropDownList ID="DropDownList4" runat="server" AutoPostBack="True" DataTextField="sub1" DataValueField="sub1">
                 </asp:DropDownList>
             </p>
             <p>
