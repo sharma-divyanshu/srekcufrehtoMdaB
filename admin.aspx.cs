@@ -13,18 +13,19 @@ public partial class Default2 : System.Web.UI.Page
         Label2.Text = "";
         Panel1.Visible = false;
         Panel2.Visible = false;
+        Panel3.Visible = false;
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
         if ((TextBox1.Text == "admin") && (TextBox2.Text == "adm"))
         {
-            Label1.Text = "Admin Login Successfull :)";
+            Label1.Text = "Admin Login Successful";
             Panel1.Visible = true;
             RadioButtonList1.SelectedIndex = -1;
         }
         else if((TextBox1.Text=="teacher")&&(TextBox2.Text=="teac"))
         {
-            Label2.Text = "Teacher Login Successfull";
+            Label2.Text = "Teacher Login Successful";
             Panel2.Visible = true;
         }
         else
@@ -40,17 +41,21 @@ public partial class Default2 : System.Web.UI.Page
             string ctr = RadioButtonList1.SelectedItem.ToString();
             switch (ctr)
             {
-                case "Enter Student Data": Response.Redirect("~/add_stu_data.aspx");
+                case "Enter Student Data": Response.Redirect("~/add_stu_data.aspx?ID="+this.TextBox1.Text);
                     break;
-                case "Enter Teacher Data": Response.Redirect("~/add_tea_data.aspx");
+                case "Update Student Data": Response.Redirect("~/upd_stu_data.aspxID?="+this.TextBox1.Text);
                     break;
-                case "View Class Data": Response.Redirect("~/view_data.aspx");
+                case "View Class Data": Panel3.Visible = true;
                     break;
-                case "View Feedback": Response.Redirect("~/feed.aspx");
+                case "View Feedback": Response.Redirect("~/feed.aspx?ID="+this.TextBox1.Text);
                     break;
                 default:
                     break;
             }
         }
+    }
+    protected void Button4_Click1(object sender, EventArgs e)
+    {
+        Response.Redirect("class_view.aspx?id=" + TextBox1.Text + "&branch=" + DropDownList7.SelectedValue + "&year=" + DropDownList5.SelectedValue + "&shift=" + DropDownList6.SelectedValue);
     }
 }
