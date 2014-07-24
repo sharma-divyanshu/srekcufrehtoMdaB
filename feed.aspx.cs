@@ -9,6 +9,9 @@ public partial class feed : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (Request.QueryString["Stream"] == null)
+        {
+            Response.Redirect("404.aspx");
+        }
     }
 }
