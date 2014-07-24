@@ -26,7 +26,7 @@ public partial class title_footer : System.Web.UI.MasterPage
         email = TextBox2.Text;
         branch = DropDownList1.SelectedItem.ToString();
         year = Convert.ToInt32(DropDownList2.SelectedItem.ToString());
-        sugg = TextBox6.Text;
+        sugg = TextBox3.Text;
         conn.Open();
         SqlCommand cmd = new SqlCommand(instr, conn);
         cmd.Parameters.AddWithValue("@name", name);
