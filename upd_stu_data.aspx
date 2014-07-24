@@ -21,7 +21,16 @@
                 <asp:Button ID="Button1" runat="server" Text="Search" OnClick="Button1_Click" />
             </p>
             <asp:Panel ID="Panel3" runat="server">
-                <p><asp:Label ID="Label1" runat="server" Text="Enrollment No."></asp:Label><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></p>
+                <p><asp:Label ID="Label1" runat="server" Text="Enrollment No."></asp:Label><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:Label ID="Label7" runat="server" Text="Branch"></asp:Label>
+                    <asp:DropDownList ID="DropDownList5" runat="server">
+                        <asp:ListItem>CSE</asp:ListItem>
+                        <asp:ListItem>ECE</asp:ListItem>
+                        <asp:ListItem>EEE</asp:ListItem>
+                        <asp:ListItem>IT</asp:ListItem>
+                        <asp:ListItem>ICE</asp:ListItem>
+                    </asp:DropDownList>
+                </p>
             </asp:Panel>
             <asp:Panel ID="Panel4" runat="server">
                 <p><asp:Label ID="Label2" runat="server" Text="First Name"></asp:Label><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
@@ -46,8 +55,12 @@
                         <asp:ListItem>Evening</asp:ListItem>
                     </asp:DropDownList></p>
             </asp:Panel>
+            <asp:Button ID="Button2" runat="server" Text="Get Data" />
          </asp:Panel>
-        <asp:Panel ID="Panel2" runat="server"></asp:Panel>
+        <asp:Panel ID="Panel2" runat="server">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateEditButton="True">
+            </asp:GridView>
+        </asp:Panel>
     </div>
 
     </form>
