@@ -22,6 +22,11 @@ public partial class Default2 : System.Web.UI.Page
             Panel1.Visible = true;
             RadioButtonList1.SelectedIndex = -1;
         }
+        else if((TextBox1.Text=="teacher")&&(TextBox2.Text=="teac"))
+        {
+            Label2.Text = "Teacher Login Successfull";
+            Panel2.Visible = true;
+        }
         else
             Label1.Text = "Login Failed :(";
     }

@@ -19,7 +19,7 @@
         </center>
     </div>
         <div>
-        <asp:Panel ID="Panel2" runat="server" CssClass="panel">
+        <asp:Panel ID="Panel2" runat="server" BorderColor="Black" CssClass="panel"  BorderStyle="Groove" BorderWidth="5px" HorizontalAlign="Justify">
             <p>
                 <strong>Enter Class to be edited:</strong></p>
             <p>
@@ -41,6 +41,8 @@
                     <asp:ListItem>EEE</asp:ListItem>
                     <asp:ListItem>IT</asp:ListItem>
                     <asp:ListItem>ICE</asp:ListItem>
+                </asp:DropDownList>
+                 <asp:Label ID="Label6" runat="server" Text="Subjects"></asp:Label><asp:DropDownList ID="DropDownList4" runat="server">
                 </asp:DropDownList>
             </p>
             <p>
