@@ -12,6 +12,7 @@ public partial class Default2 : System.Web.UI.Page
         Label1.Text = "";
         Label2.Text = "";
         Panel1.Visible = false;
+        Panel2.Visible = false;
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
@@ -39,6 +40,8 @@ public partial class Default2 : System.Web.UI.Page
                 case "Enter Teacher Data": Response.Redirect("~/add_tea_data.aspx");
                     break;
                 case "View Class Data": Response.Redirect("~/view_data.aspx");
+                    break;
+                case "View Feedback": Response.Redirect("~/feed.aspx");
                     break;
                 default:
                     break;

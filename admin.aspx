@@ -18,8 +18,8 @@
         </p>
         </center>
     </div>
-        <div class="content">
-        <asp:Panel ID="Panel2" runat="server">
+        <div>
+        <asp:Panel ID="Panel2" runat="server" CssClass="panel">
             <p>
                 <strong>Enter Class to be edited:</strong></p>
             <p>
@@ -48,11 +48,13 @@
             </p>
             </asp:Panel>
     <div style="display:inline-block; width:inherit;">
-        <asp:Panel ID="Panel1" runat="server" BorderColor="Black" BorderStyle="Groove" BorderWidth="5px" HorizontalAlign="Justify">
+        <asp:Panel ID="Panel1" runat="server" BorderColor="Black" CssClass="panel"  BorderStyle="Groove" BorderWidth="5px" HorizontalAlign="Justify">
             <asp:RadioButtonList ID="RadioButtonList1" runat="server" Width="290px">
                 <asp:ListItem>Enter Student Data</asp:ListItem>
                 <asp:ListItem>View Class Data</asp:ListItem>
                 <asp:ListItem>Update Student Data</asp:ListItem>
+                <asp:ListItem>View Feedback</asp:ListItem>
+                <asp:ListItem>Update Subjects</asp:ListItem>
             </asp:RadioButtonList>
             <center><asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" />
                 <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>

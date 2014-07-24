@@ -32,7 +32,23 @@
                 </div>
             <div class="cont">
             <div class="comp">
-         
+                <p><asp:Label ID="Label1" runat="server" Text="Name"></asp:Label><asp:TextBox ID="TextBox1" runat="server" CssClass="textbox" ></asp:TextBox><br /></p>
+                <p><asp:Label ID="Label2" runat="server" Text="E-Mail"></asp:Label><asp:TextBox ID="TextBox2" runat="server" CssClass="textbox"></asp:TextBox><br /></p>
+                <p><asp:Label ID="Label4" runat="server" Text="Branch"></asp:Label><asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:ListItem>CSE</asp:ListItem>
+                    <asp:ListItem>ECE</asp:ListItem>
+                    <asp:ListItem>EEE</asp:ListItem>
+                    <asp:ListItem>IT</asp:ListItem>
+                    <asp:ListItem>ICE</asp:ListItem>
+                    </asp:DropDownList><br /></p>
+                <p><asp:Label ID="Label5" runat="server" Text="Year"></asp:Label><asp:DropDownList ID="DropDownList2" runat="server">
+                    <asp:ListItem Value="1">1st Year</asp:ListItem>
+                    <asp:ListItem Value="2">2nd Year</asp:ListItem>
+                    <asp:ListItem Value="3">3rd Year</asp:ListItem>
+                    <asp:ListItem Value="4">4th Year</asp:ListItem>
+                    </asp:DropDownList><br /></p>
+                <p><asp:Label ID="Label6" runat="server" Text="Suggestion/Feedback"></asp:Label><asp:TextBox ID="TextBox6" runat="server" CssClass="textbox"></asp:TextBox><br /></p>
+                <asp:Button ID="Button1" runat="server" Text="Submit" CssClass="button" />
             </div>
                 </div>
             

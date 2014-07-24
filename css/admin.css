@@ -5,6 +5,13 @@
 .content {
     padding: 5%;
     border: 2px groove black;
-    width: 39.5%;
+    width: 100%;
     display: inline-block;
     position: relative;
+}
+
+.panel{
+    display:inline-block;
+    position:relative;
+    width:40%;
+}

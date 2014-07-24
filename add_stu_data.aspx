@@ -36,6 +36,8 @@
         </asp:Table>
         <br />
         <asp:Button ID="Button1" runat="server" Text="Submit Info" OnClick="Button1_Click" />
+        <br />
+        <br />
     </div>
     </form>
 </body>
