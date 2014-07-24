@@ -30,6 +30,7 @@
             <br />
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Update Attendance" />
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <br />
         </asp:Panel>
         
     </div>
