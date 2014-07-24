@@ -56,7 +56,7 @@
                 <asp:ListItem>Enter Student Data</asp:ListItem>
                 <asp:ListItem>View Class Data</asp:ListItem>
                 <asp:ListItem>View Feedback</asp:ListItem>
-                <asp:ListItem>Update Subjects</asp:ListItem>
+                <asp:ListItem>Update Student Data</asp:ListItem>
             </asp:RadioButtonList>
             <center><asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" />
                 <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
@@ -91,6 +91,34 @@
             </p>
             <p>
                 <asp:Button ID="Button4" runat="server" OnClick="Button4_Click1" Text="View" />
+            </p>
+            </asp:Panel>
+        <asp:Panel ID="Panel4" runat="server" BorderColor="Black" CssClass="panel"  BorderStyle="Groove" BorderWidth="5px" HorizontalAlign="Justify">
+            <p>
+                <strong>Enter Class to be edited:</strong></p>
+            <p>
+                &nbsp;</p>
+            <p>
+                <asp:Label ID="Label10" runat="server" Text="Year"></asp:Label><asp:DropDownList ID="DropDownList8" runat="server">
+                    <asp:ListItem>1</asp:ListItem>
+                    <asp:ListItem>2</asp:ListItem>
+                    <asp:ListItem>3</asp:ListItem>
+                    <asp:ListItem>4</asp:ListItem>
+                </asp:DropDownList>
+                <asp:Label ID="Label11" runat="server" Text="Shift"></asp:Label><asp:DropDownList ID="DropDownList9" runat="server">
+                    <asp:ListItem>Morning</asp:ListItem>
+                    <asp:ListItem>Evening</asp:ListItem>
+                </asp:DropDownList>
+                <asp:Label ID="Label12" runat="server" Text="Branch"></asp:Label><asp:DropDownList ID="DropDownList10" runat="server">
+                    <asp:ListItem>CSE</asp:ListItem>
+                    <asp:ListItem>ECE</asp:ListItem>
+                    <asp:ListItem>EEE</asp:ListItem>
+                    <asp:ListItem>IT</asp:ListItem>
+                    <asp:ListItem>ICE</asp:ListItem>
+                </asp:DropDownList>
+            </p>
+            <p>
+                <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Edit" />
             </p>
             </asp:Panel>
     </form>

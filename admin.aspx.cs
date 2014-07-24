@@ -16,6 +16,7 @@ public partial class Default2 : System.Web.UI.Page
         Panel1.Visible = false;
         Panel2.Visible = false;
         Panel3.Visible = false;
+        Panel4.Visible = false;
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
@@ -46,7 +47,7 @@ public partial class Default2 : System.Web.UI.Page
             {
                 case "Enter Student Data": Response.Redirect("~/add_stu_data.aspx?ID="+this.TextBox1.Text);
                     break;
-                case "Update Student Data": Response.Redirect("~/upd_stu_data.aspxID?="+this.TextBox1.Text);
+                case "Update Student Data": Panel4.Visible = true;
                     break;
                 case "View Class Data": Panel3.Visible = true;
                     break;
@@ -57,11 +58,10 @@ public partial class Default2 : System.Web.UI.Page
             }
         }
     }
-<<<<<<< HEAD
     protected void Button4_Click1(object sender, EventArgs e)
     {
         Response.Redirect("class_view.aspx?id=" + TextBox1.Text + "&branch=" + DropDownList7.SelectedValue + "&year=" + DropDownList5.SelectedValue + "&shift=" + DropDownList6.SelectedValue);
-=======
+    }
     protected void DropDownList3_SelectedIndexChanged(object sender, EventArgs e)
     {
         Panel2.Visible = true;
@@ -135,6 +135,9 @@ public partial class Default2 : System.Web.UI.Page
             DropDownList4.Items.Add(rdr6["sub6"].ToString());
         }
         conn.Close();
->>>>>>> origin/master
+    }
+    protected void Button5_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("upd_stu_data.aspx?id=" + TextBox1.Text + "&branch=" + DropDownList10.SelectedValue + "&year=" + DropDownList8.SelectedValue + "&shift=" + DropDownList9.SelectedValue);
     }
 }
