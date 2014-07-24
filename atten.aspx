@@ -27,11 +27,9 @@
                 </asp:TemplateField>
              </Columns>
         </asp:GridView>
-            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ></asp:SqlDataSource>
-        <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="SqlDataSource2" CssClass="mGrid">
-        </asp:GridView>
             <br />
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Update Attendance" />
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         </asp:Panel>
         
     </div>

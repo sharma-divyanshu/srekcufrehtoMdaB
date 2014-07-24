@@ -11,7 +11,14 @@ public partial class edit_atten : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        SqlDataSource1.SelectCommand = @"select * from CSE";
+        if (Session["subject"] != null)
+        {
+            SqlDataSource1.SelectCommand = @"select * from " + Request.QueryString["branch"] + " where year='" + Request.QueryString["year"] + "'and shift='" + Request.QueryString["shift"] + "' and Enroll_No<>999999999 order by Enroll_No";
+            TextBox1.Text = Session["subjectid"].ToString() + " -- " + Session["subject"].ToString() ;
+            TextBox1.Enabled = false;
+        }
+        else
+            Response.Redirect("~/404.aspx");
     }
     protected void Button1_Click(object sender, EventArgs e)
     {

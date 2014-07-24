@@ -140,4 +140,15 @@ public partial class Default2 : System.Web.UI.Page
     {
         Response.Redirect("upd_stu_data.aspx?id=" + TextBox1.Text + "&branch=" + DropDownList10.SelectedValue + "&year=" + DropDownList8.SelectedValue + "&shift=" + DropDownList9.SelectedValue);
     }
+    protected void Button6_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("atten.aspx?id=" + TextBox1.Text + "&branch=" + DropDownList3.SelectedValue + "&year=" + DropDownList1.SelectedValue + "&shift=" + DropDownList2.SelectedValue);
+    }
+
+    protected void DropDownList4_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        Panel2.Visible = true;
+        Session["subjectid"] = DropDownList4.SelectedIndex + 1;
+        Session["subject"] = DropDownList4.SelectedItem.ToString();
+    }
 }

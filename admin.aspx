@@ -43,11 +43,11 @@
                     <asp:ListItem>IT</asp:ListItem>
                     <asp:ListItem>ICE</asp:ListItem>
                 </asp:DropDownList>
-                 <asp:Label ID="Label6" runat="server" Text="Subjects"></asp:Label><asp:DropDownList ID="DropDownList4" runat="server" AutoPostBack="True" DataTextField="sub1" DataValueField="sub1">
+                 <asp:Label ID="Label6" runat="server" Text="Subjects"></asp:Label><asp:DropDownList ID="DropDownList4" runat="server" AutoPostBack="True" DataTextField="sub1" DataValueField="sub1" OnSelectedIndexChanged="DropDownList4_SelectedIndexChanged" >
                 </asp:DropDownList>
             </p>
             <p>
-                <asp:Button ID="Button3" runat="server" Text="Search" OnClick="Button1_Click" />
+                <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" style="height: 26px" Text="Search" />
             </p>
             </asp:Panel>
     <div style="display:inline-block; width:inherit;">
