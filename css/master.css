@@ -139,6 +139,20 @@ html
 	outline: none;
 }
 
+.textbox1 {
+	background: white;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DDD inset;
+	color: #666;
+	float: left;
+	padding: 5px 10px;
+	width: 105px;
+    position:relative;
+    display:inline-block;
+	outline: none;
+}
+
 .button {
 	-moz-box-shadow:inset 0px 1px 0px -50px #d9fbbe;
 	-webkit-box-shadow:inset 0px 1px 0px -50px #d9fbbe;
