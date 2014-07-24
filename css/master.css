@@ -90,6 +90,7 @@ html
 }
 .cont
 {
+    z-index:400;
     width:49%;
     display:inline-block;
     position:relative;
