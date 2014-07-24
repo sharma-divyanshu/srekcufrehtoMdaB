@@ -9,7 +9,7 @@
 <body>
     <link rel="stylesheet" href="css/admin.css" />
     <form id="form1" runat="server">
-    
+    <div>
    
         <asp:Panel ID="Panel2" runat="server">
          <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ></asp:SqlDataSource>

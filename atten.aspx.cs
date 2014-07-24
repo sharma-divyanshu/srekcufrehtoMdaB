@@ -22,7 +22,6 @@ public partial class edit_atten : System.Web.UI.Page
                 CheckBox chkrow = (row.Cells[5].FindControl("chkbox") as CheckBox);
                 if (chkrow.Checked)
                 {
-                    Response.Write("l");
                 }
             }
         }
