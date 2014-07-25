@@ -12,6 +12,8 @@
     <div>
     
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ></asp:SqlDataSource>
+    
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ></asp:SqlDataSource>
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="SqlDataSource1" CssClass="mGrid">
             <Columns>
                 <asp:BoundField DataField="Branch_ID" HeaderText="Branch_ID" SortExpression="Branch_ID" />
@@ -39,6 +41,8 @@
         </asp:GridView>
     
     </div>
+        <asp:GridView ID="GridView2" runat="server" CssClass="mGrid" DataSourceID="SqlDataSource2">
+        </asp:GridView>
     </form>
 </body>
 </html>

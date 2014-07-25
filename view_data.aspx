@@ -15,6 +15,10 @@
             </asp:GridView>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>">
             </asp:SqlDataSource>
+            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"></asp:SqlDataSource>
+            <br />
+            <asp:GridView ID="GridView2" runat="server" CssClass="mGrid" DataSourceID="SqlDataSource2">
+            </asp:GridView>
         </asp:Panel>
     </form>
     </body>
