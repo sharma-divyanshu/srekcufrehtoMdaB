@@ -34,6 +34,7 @@ public partial class title_footer : System.Web.UI.MasterPage
         cmd.Parameters.AddWithValue("@branch", branch);
         cmd.Parameters.AddWithValue("@year", year);
         cmd.Parameters.AddWithValue("@sugg", sugg);
+        cmd.ExecuteNonQuery();
         conn.Close();
     }
 }

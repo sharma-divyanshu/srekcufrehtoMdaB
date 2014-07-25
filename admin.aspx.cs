@@ -68,7 +68,7 @@ public partial class Default2 : System.Web.UI.Page
         Session["year"] = DropDownList1.SelectedValue;
         Session["branch"] = DropDownList2.SelectedValue;
         Session["shift"] = DropDownList3.SelectedValue;
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\hph\Documents\Visual Studio 2013\WebSites\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Divyanshu\Documents\GitHub\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
         string instr = "select sub1 from SUB_ODD where Year='" + Convert.ToInt32(DropDownList1.SelectedItem.ToString()) + "' AND Branch='" + DropDownList3.SelectedItem.ToString() + "'";
         conn.Open();
         SqlCommand cmd = new SqlCommand(instr, conn);
@@ -142,13 +142,14 @@ public partial class Default2 : System.Web.UI.Page
     }
     protected void Button6_Click(object sender, EventArgs e)
     {
-        Response.Redirect("atten.aspx?id=" + TextBox1.Text + "&branch=" + DropDownList3.SelectedValue + "&year=" + DropDownList1.SelectedValue + "&shift=" + DropDownList2.SelectedValue);
+        Response.Redirect("atten.aspx?id=" + TextBox1.Text + "&branch=" + DropDownList3.SelectedValue + "&year=" + DropDownList1.SelectedValue + "&shift=" + DropDownList2.SelectedValue + "&subject="+DropDownList4.SelectedValue);
+        Session["subjectid"] = DropDownList4.SelectedIndex + 1;
+        Session["subject"] = DropDownList4.SelectedValue;
     }
 
     protected void DropDownList4_SelectedIndexChanged(object sender, EventArgs e)
     {
         Panel2.Visible = true;
-        Session["subjectid"] = DropDownList4.SelectedIndex + 1;
-        Session["subject"] = DropDownList4.SelectedItem.ToString();
+        
     }
 }

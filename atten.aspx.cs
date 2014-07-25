@@ -11,11 +11,11 @@ public partial class edit_atten : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (Session["subject"].ToString() != null)
+        if (Request.QueryString != null)
         {
             SqlDataSource1.SelectCommand = @"select * from " + Request.QueryString["branch"] + " where year='" + Request.QueryString["year"] + "'and shift='" + Request.QueryString["shift"] + "' and Enroll_No<>999999999 order by Enroll_No";
-            TextBox1.Text = Session["subjectid"].ToString() + " -- " + Session["subject"].ToString() ;
-            TextBox1.Enabled = false;
+            
+        
         }
         else
             Response.Redirect("~/404.aspx");
@@ -23,7 +23,7 @@ public partial class edit_atten : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         string instr,shelly;
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\hph\Documents\Visual Studio 2013\WebSites\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Divyanshu\Documents\GitHub\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
         foreach(GridViewRow row in GridView1.Rows)
         {
             if (row.RowType == DataControlRowType.DataRow)

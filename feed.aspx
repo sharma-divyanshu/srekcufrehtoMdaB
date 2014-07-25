@@ -13,10 +13,9 @@
         
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" CssClass="mGrid">
             <Columns>
-                <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" />
+                <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" InsertVisible="False" />
                 <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
                 <asp:BoundField DataField="email" HeaderText="email" SortExpression="email" />
-                <asp:BoundField DataField="phone" HeaderText="phone" SortExpression="phone" />
                 <asp:BoundField DataField="branch" HeaderText="branch" SortExpression="branch" />
                 <asp:BoundField DataField="year" HeaderText="year" SortExpression="year" />
                 <asp:BoundField DataField="sugg" HeaderText="sugg" SortExpression="sugg" />

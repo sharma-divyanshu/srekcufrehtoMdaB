@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <link rel="stylesheet" href="css/admin.css" />
@@ -29,7 +30,6 @@
         </asp:GridView>
             <br />
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Update Attendance" />
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <br />
         </asp:Panel>
         
