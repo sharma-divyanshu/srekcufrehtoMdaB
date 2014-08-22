@@ -25,12 +25,16 @@ public partial class Default2 : System.Web.UI.Page
             Label1.Text = "Admin Login Successful";
             Panel1.Visible = true;
             RadioButtonList1.SelectedIndex = -1;
+            Session["user"] = TextBox1.Text;
+            Session["pass"] = TextBox2.Text;
         }
         else if((TextBox1.Text=="teacher")&&(TextBox2.Text=="teac"))
         {
             Label2.Text = "Teacher Login Successful";
             Panel2.Visible = true;
             DropDownList3.ClearSelection() ;
+            Session["user"] = TextBox1.Text;
+            Session["pass"] = TextBox2.Text;
         }
         else
             Label1.Text = "Login Failed :(";
@@ -45,13 +49,13 @@ public partial class Default2 : System.Web.UI.Page
             string ctr = RadioButtonList1.SelectedItem.ToString();
             switch (ctr)
             {
-                case "Enter Student Data": Response.Redirect("~/add_stu_data.aspx?ID="+this.TextBox1.Text);
+                case "Enter Student Data": Response.Redirect("~/add_stu_data.aspx");
                     break;
                 case "Update Student Data": Panel4.Visible = true;
                     break;
                 case "View Class Data": Panel3.Visible = true;
                     break;
-                case "View Feedback": Response.Redirect("~/feed.aspx?ID="+this.TextBox1.Text);
+                case "View Feedback": Response.Redirect("~/feed.aspx");
                     break;
                 default:
                     break;

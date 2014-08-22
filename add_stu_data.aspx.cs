@@ -12,7 +12,8 @@ public partial class Default2 : System.Web.UI.Page
     int a;
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (Session["pass"].ToString() != "adm")
+            Response.Redirect("~/404.aspx");
     }
     protected void Button1_Click(object sender, EventArgs e)
     {

@@ -13,7 +13,7 @@
         <h1>ENTER STUDENT DETAILS</h1>
         <br /><br />
         <asp:Table runat="server">
-        <asp:TableRow><asp:TableCell>Enrollment No.:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></asp:TableCell></asp:TableRow>
+        <asp:TableRow><asp:TableCell>Enrollment No.:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="CompareValidator"></asp:CompareValidator></asp:TableCell></asp:TableRow>
         <asp:TableRow><asp:TableCell>First Name:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></asp:TableCell></asp:TableRow>
         <asp:TableRow><asp:TableCell>Last Name:</asp:TableCell><asp:TableCell><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></asp:TableCell></asp:TableRow>
         <asp:TableRow><asp:TableCell>Year:</asp:TableCell><asp:TableCell><asp:DropDownList ID="DropDownList1" runat="server">
