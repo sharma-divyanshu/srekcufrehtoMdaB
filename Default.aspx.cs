@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 public partial class _Default : System.Web.UI.Page
 {
-    SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Divyanshu\Documents\GitHub\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
+    SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\hph\Documents\Visual Studio 2013\WebSites\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
     
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -35,10 +35,10 @@ public partial class _Default : System.Web.UI.Page
         {
             Session["username"] = TextBox1.Text;
             Session["password"] = TextBox2.Text;
-            Session["stream"] = DropDownList1.SelectedValue;
+            Session["stream"] = DropDownList1.SelectedItem.ToString();
             Session["year"] = DropDownList2.SelectedValue;
             Session["value"] = 1;
-            Response.Redirect("view_data.aspx?Stream="+this.DropDownList1.SelectedValue+"&Year="+this.DropDownList2.SelectedValue);
+            Response.Redirect("view_data.aspx");
         }
         else
         {

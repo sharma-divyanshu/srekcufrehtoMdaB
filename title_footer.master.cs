@@ -16,9 +16,10 @@ public partial class title_footer : System.Web.UI.MasterPage
     protected void LinkButton1_Click(object sender, EventArgs e)
     {
     }
-    protected void Button1_Click(object sender, EventArgs e)
+    protected void Button1_Click1(object sender, EventArgs e)
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\hph\Documents\Visual Studio 2013\WebSites\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
+        string constr = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\hph\Documents\Visual Studio 2013\WebSites\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True";
+        SqlConnection conn = new SqlConnection(constr);
         string instr = "INSERT INTO Feed (Name,email,branch,year,sugg) values (@name,@email,@branch,@year,@sugg)";
         string name, email, branch, sugg;
         int year;
