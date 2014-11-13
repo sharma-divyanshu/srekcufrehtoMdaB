@@ -72,7 +72,7 @@ public partial class Default2 : System.Web.UI.Page
         Session["year"] = DropDownList1.SelectedValue;
         Session["branch"] = DropDownList2.SelectedValue;
         Session["shift"] = DropDownList3.SelectedValue;
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Divyanshu\Documents\GitHub\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\hph\Documents\Visual Studio 2013\WebSites\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
         string instr = "select sub1 from SUB_ODD where Year='" + Convert.ToInt32(DropDownList1.SelectedItem.ToString()) + "' AND Branch='" + DropDownList3.SelectedItem.ToString() + "'";
         conn.Open();
         SqlCommand cmd = new SqlCommand(instr, conn);
