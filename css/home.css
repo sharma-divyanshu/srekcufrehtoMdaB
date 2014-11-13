@@ -138,13 +138,15 @@ h2{
 	background:url(../img/1.jpg) 50% 0 no-repeat fixed;
 	color: rgb(247, 247, 247);
 	height: 650px;
+    background-size:100%;
 	margin: 0 auto;
 	padding: 0;
 }
 
 #second{
-	background: url(../img/2.jpg) 50% 0
+	background: url(../img/2.jpg) 10% 0
      no-repeat fixed;
+    background-size:100%;
 	color: rgb(247, 247, 247);
 	height: 900px;
 	margin: 0 auto;
@@ -153,8 +155,9 @@ h2{
 }
 
 #second .bg{
-	background: url(../img/lel1.png) 40% 0 no-repeat fixed;
-	height: 900px;
+	background: url(../img/lel1.png) 10% 0 no-repeat fixed;
+	
+    height: 900px;
     width:93%;
 	margin: 0 auto;
 	padding: 0;
@@ -163,8 +166,9 @@ h2{
 }
 
 #third{
-	background: url(../img/3.jpg) 50% 0 no-repeat fixed;
-	color: rgb(247, 247, 247);
+	background: url(../img/3.jpg) 10% 0 no-repeat fixed;
+	background-size:100%;
+    color: rgb(247, 247, 247);
 	height: 650px;
 	padding: 0;	
     z-index:100;
