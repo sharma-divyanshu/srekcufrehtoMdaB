@@ -29,7 +29,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>ARISTIDE - Conference Management System</title>
+        <title>BVCOE Attendance Portal</title>
         <link href="css/home.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
@@ -59,10 +59,13 @@
         <div id="intro">
             <div class="story">
                 <div class="float-left">
-                    <h2>ARISTIDE</h2>
-                    <p>Aristide is a conference management system aimed at facilitating the management of delegate registration, paper submission and paper review for any conference or journal. Its objective is to bridge the gap between research enthusiasts, journals & publications via feature-rich conference management system. ​</p>
-<p>It is feature-rich, easy to use, and has many features that make it suitable for various conference models.</p>
-​</div>
+                    <h2>About Bharati Vidyapeeth's College of Engineering, New Delhi</h2>
+                    <p>Bharati vidyapeeth’s college of engineering, New Delhi since its establishment in 1999, has strived to provide the best engineering education to its students through well qualified and dedicated faculty and provision of well equipped modern labs.</p>
+
+<p>The college affiliated to Guru Gobind Singh Indraprasth University, New Delhi, and approved by All India Council for Technical Education (AICTE), Ministry of HRD, Govt. of India, BVCOE is steadily striding forward in its quest of establishing itself among the top engineering colleges in North India.</p>
+
+<p>The vision of the college is to continuously excel and thus coming together enlivens the research themes, creates awareness about upcoming technologies and provide platform to budding research workers for achieving their rightful place in the scientific community.</p>
+                </div>
             </div>
             <!--.story-->
         </div>
@@ -109,6 +112,26 @@
                             <td class="auto-style7">&nbsp;</td>
                             <td class="auto-style4">
                                 &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style7">&nbsp;</td>
+                            <td class="auto-style4">
+                                <asp:Panel ID="Panel1" runat="server">
+                                    <asp:DropDownList ID="DropDownList1" runat="server">
+                                        <asp:ListItem Selected="True">CSE</asp:ListItem>
+                                        <asp:ListItem>ECE</asp:ListItem>
+                                        <asp:ListItem>EEE</asp:ListItem>
+                                        <asp:ListItem>IT</asp:ListItem>
+                                        <asp:ListItem>IC</asp:ListItem>
+                                    </asp:DropDownList>
+                                    <asp:DropDownList ID="DropDownList2" runat="server" style="margin-left: 34px" Height="22px" Width="76px">
+                                        <asp:ListItem Value="1">1st Year</asp:ListItem>
+                                        <asp:ListItem Value="2">2nd Year</asp:ListItem>
+                                        <asp:ListItem Value="3">3rd Year</asp:ListItem>
+                                        <asp:ListItem Value="4">4th Year</asp:ListItem>
+                                    </asp:DropDownList>
+                                </asp:Panel>
+                            </td>
                         </tr>
                         <tr>
                             <td class="auto-style7">&nbsp;</td>
