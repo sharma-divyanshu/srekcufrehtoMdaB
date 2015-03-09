@@ -8,11 +8,11 @@ using System.Data.SqlClient;
 
 public partial class _Default : System.Web.UI.Page
 {
-    SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\hph\Documents\Visual Studio 2013\WebSites\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
+    SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Divyanshu\Documents\GitHub\srekcufrehtoMdaB\App_Data\Database.mdf;Integrated Security=True");
     
     protected void Page_Load(object sender, EventArgs e)
     {
-        con.Open();
+       /* con.Open();*/
     }
     protected void TextBox1_TextChanged(object sender, EventArgs e)
     {
@@ -26,6 +26,7 @@ public partial class _Default : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         SqlCommand cmd = new SqlCommand();
+        con.Open();
         cmd.CommandText = "select name,password from STUDENT where name=@name and password=@password";
         cmd.Parameters.AddWithValue("@name", TextBox1.Text);
         cmd.Parameters.AddWithValue("@password", TextBox2.Text);
